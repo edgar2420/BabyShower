@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Shower</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Cormorant+Garamond:wght@500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="pagina portada" id="portada">
+        <img class="pagina-fondo" src="img/fondoBEBE.jpg" alt="Fondo Winnie Pooh">
+
+        <div class="portada-contenido">
+            <p class="pre-titulo">TE INVITO A MI</p>
+            <h1 class="titulo-script">Baby Shower</h1>
+            <p class="click-aviso">Click aquí</p>
+        </div>
+
+        <div class="espiral">
+            <div class="espiral-figura"></div>
+        </div>
+
+        <script>
+            const portada = document.getElementById('portada');
+            portada.addEventListener('click', () => {
+                if (portada.classList.contains('saliendo')) return;
+                portada.classList.add('saliendo');
+                setTimeout(() => {
+                    window.location.href = 'pagina2.html';
+                }, 900);
+            });
+        </script>
+
+</body>
+
+</html>

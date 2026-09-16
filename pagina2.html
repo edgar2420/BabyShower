@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baby Shower</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Cormorant+Garamond:wght@500;600&family=Playfair+Display:wght@500;600&family=Alex+Brush&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pagina2.css">
+</head>
+
+<body>
+
+    <div class="pagina pagina2">
+        <img class="pagina-fondo" src="img/lUEGO.jpg" alt="Fondo nubes">
+
+        <div class="pagina2-contenido">
+            <p class="p2-miel-pre">UN POCO DE</p>
+            <p class="p2-miel"><span>MIEL</span></p>
+            <p class="p2-pretitulo">ESTÁ EN CAMINO</p>
+
+            <div class="p2-baby-wrap">
+                <span class="p2-letras">BA</span>
+                <span class="p2-caja">
+                    <img class="p2-osito-medio" src="img/poo-removebg-preview.png" alt="Pooh asomado">
+                </span>
+                <span class="p2-letras">BY</span>
+            </div>
+
+            <img class="abeja abeja-1" src="img/abeja-removebg-preview.png" alt="">
+            <img class="abeja abeja-2" src="img/abeja-removebg-preview.png" alt="">
+            <img class="abeja abeja-3" src="img/abeja-removebg-preview.png" alt="">
+            <img class="abeja abeja-4" src="img/abeja-removebg-preview.png" alt="">
+            <img class="abeja abeja-5" src="img/abeja-removebg-preview.png" alt="">
+            <img class="abeja abeja-6" src="img/abeja-removebg-preview.png" alt="">
+
+            <div class="reproductor">
+                <p class="reproductor-texto">Dale play a nuestra canción</p>
+
+                <div class="barra">
+                    <div class="barra-progreso" id="barraProgreso"></div>
+                </div>
+
+                <div class="controles">
+                    <button class="control" type="button" aria-label="Aleatorio">
+                        <svg viewBox="0 0 24 24" width="20" height="20">
+                            <path d="M17 3l4 4-4 4M3 7h6l3 4m9 6l-4 4-4-4M3 17h6l9-13" fill="none" stroke="currentColor"
+                                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+
+                    <button class="control" type="button" aria-label="Anterior">
+                        <svg viewBox="0 0 24 24" width="22" height="22">
+                            <path d="M18 5v14L7 12z" fill="currentColor" />
+                            <rect x="4" y="5" width="2" height="14" fill="currentColor" />
+                        </svg>
+                    </button>
+
+                    <button class="control control-play" type="button" id="btnPlay" aria-label="Reproducir">
+                        <svg viewBox="0 0 24 24" width="26" height="26" id="iconoPlay">
+                            <path d="M8 5v14l11-7z" fill="currentColor" />
+                        </svg>
+                    </button>
+
+                    <button class="control" type="button" aria-label="Siguiente">
+                        <svg viewBox="0 0 24 24" width="22" height="22">
+                            <path d="M6 5v14l11-7z" fill="currentColor" />
+                            <rect x="18" y="5" width="2" height="14" fill="currentColor" />
+                        </svg>
+                    </button>
+
+                    <button class="control" type="button" aria-label="Repetir">
+                        <svg viewBox="0 0 24 24" width="20" height="20">
+                            <path d="M17 2l4 4-4 4M3 11V9a4 4 0 0 1 4-4h14M7 22l-4-4 4-4M21 13v2a4 4 0 0 1-4 4H3"
+                                fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="p2-versiculo">
+                <img class="p2-versiculo-imagen" src="img/nombre-removebg-preview.png" alt="Letrero de madera">
+                <div class="p2-versiculo-capa">
+                    <p class="p2-versiculo-texto">
+                        Cada latido, cada patadita,
+                        son notas de la melodía
+                        que traerá el nuevo
+                        miembro de la familia
+                    </p>
+                </div>
+            </div>
+
+            <img class="p2-osito" src="img/ositopoo-removebg-preview.png" alt="Osito Pooh">
+        </div>
+
+        <audio id="audio" src="mp3/Gimnasia con Pooh.mp3" preload="metadata"></audio>
+    </div>
+
+    <script src="js/pagina2.js"></script>
+
+</body>
+
+</html>

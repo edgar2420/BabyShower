@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  background: #eef3f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.pagina {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.pagina-fondo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.portada {
+  cursor: pointer;
+}
+
+.portada-contenido {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  text-align: center;
+  padding: 0 8%;
+}
+
+.pre-titulo {
+  position: absolute;
+  top: 6%;
+  left: 0;
+  right: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  letter-spacing: 0.35em;
+  color: #2f3a44;
+  font-weight: 600;
+}
+
+.titulo-script {
+  position: absolute;
+  top: 11%;
+  left: 0;
+  right: 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  color: #8fc0e0;
+  font-weight: 700;
+  line-height: 1;
+  -webkit-text-stroke: 0.6px #1c2b38;
+  text-stroke: 0.6px #1c2b38;
+  text-shadow:
+    -0.6px -0.6px 0 #1c2b38,
+    0.6px -0.6px 0 #1c2b38,
+    -0.6px 0.6px 0 #1c2b38,
+    0.6px 0.6px 0 #1c2b38,
+    0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.click-aviso {
+  position: absolute;
+  top: 59%;
+  left: 0;
+  right: 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.6rem;
+  color: #2f3a44;
+  font-weight: 700;
+  animation: pulso 1.6s ease-in-out infinite;
+}
+
+@keyframes pulso {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.55;
+  }
+}
+
+@keyframes mover {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(6px);
+  }
+}
+
+.espiral {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.espiral-figura {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: conic-gradient(from 0deg,
+      #7ea8c4 0deg 45deg,
+      #ffffff 45deg 90deg,
+      #b89b6a 90deg 135deg,
+      #ffffff 135deg 180deg,
+      #7ea8c4 180deg 225deg,
+      #ffffff 225deg 270deg,
+      #b89b6a 270deg 315deg,
+      #ffffff 315deg 360deg);
+  transform: scale(0) rotate(0deg);
+}
+
+.portada.saliendo .espiral {
+  opacity: 1;
+  animation: espiral-fade 900ms ease forwards;
+}
+
+.portada.saliendo .espiral-figura {
+  animation: espiral-crecer 900ms cubic-bezier(0.6, 0, 0.4, 1) forwards;
+}
+
+@keyframes espiral-crecer {
+  0% {
+    transform: scale(0) rotate(0deg);
+  }
+
+  100% {
+    transform: scale(35) rotate(720deg);
+  }
+}
+
+@keyframes espiral-fade {
+  0% {
+    opacity: 1;
+  }
+
+  85% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
