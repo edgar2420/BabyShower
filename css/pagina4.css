@@ -21,13 +21,6 @@
   opacity: 0.8;
 }
 
-.p4-arbol {
-  position: absolute;
-  top: 0;
-  right: -8%;
-  z-index: 1;
-}
-
 .p4-abeja {
   position: absolute;
   bottom: 34%;
