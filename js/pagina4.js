@@ -1,4 +1,4 @@
-const fechaEvento = new Date('2026-10-12T15:00:00');
+const fechaEvento = new Date('2026-10-10T15:00:00');
 
 const elDias = document.getElementById('dias');
 const elHoras = document.getElementById('horas');
