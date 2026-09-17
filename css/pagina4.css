@@ -174,10 +174,10 @@
 
 .p4-recepcion-osito {
   position: absolute;
-  top: 30%;
-  right: 6%;
-  width: 28%;
-  max-width: 84px;
+  top: 32%;
+  right: -8%;
+  width: 32%;
+  max-width: 94px;
   z-index: 2;
   filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.2));
 }
@@ -389,18 +389,24 @@
 }
 
 @keyframes flotar-sutil-a {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translate(0, 0) rotate(0deg);
   }
+
   50% {
     transform: translate(3px, -4px) rotate(6deg);
   }
 }
 
 @keyframes flotar-sutil-b {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translate(0, 0) rotate(0deg);
   }
+
   50% {
     transform: translate(-3px, 3px) rotate(-6deg);
   }
