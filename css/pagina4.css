@@ -213,7 +213,9 @@
   max-width: 320px;
   margin-top: 2.4rem;
   padding: 3rem 1.8rem 2.2rem;
-  background: rgba(255, 255, 255, 0.85);
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 250, 236, 0.92)),
+    url("../img/tarron.jpg") center 80% / 70% no-repeat;
   border-radius: 90px 90px 24px 24px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   overflow: visible;
