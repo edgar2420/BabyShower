@@ -57,9 +57,7 @@
 .p4-invita {
   width: 100%;
   max-width: 320px;
-  padding: 1.6rem 0.4rem;
-  border-top: 1px solid #c9ad7c;
-  border-bottom: 1px solid #c9ad7c;
+  padding: 1.6rem 0.4rem 0;
 }
 
 .p4-invita-texto {
@@ -71,7 +69,28 @@
 }
 
 .p4-fecha-marco {
-  margin-top: 1.6rem;
+  position: relative;
+  margin-top: 1.8rem;
+  padding: 2.2rem 1.4rem 1.6rem;
+  background: linear-gradient(160deg, #fffdf8, #fbf3e4);
+  border: 1px solid #e6d5b8;
+  border-radius: 22px;
+  box-shadow: 0 10px 24px rgba(163, 112, 44, 0.14);
+}
+
+.p4-fecha-icono {
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #a3702c;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(163, 112, 44, 0.35);
 }
 
 .p4-fecha-label {
@@ -155,12 +174,18 @@
 }
 
 .p4-fecha-hora {
-  margin-top: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.2rem;
+  padding: 0.4em 1.1em;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.4rem;
-  letter-spacing: 0.15em;
+  font-size: 1.15rem;
+  letter-spacing: 0.12em;
   color: #6f9cba;
   font-weight: 700;
+  background: rgba(111, 156, 186, 0.1);
+  border-radius: 20px;
 }
 
 .p4-cuenta {
