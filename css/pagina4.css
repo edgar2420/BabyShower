@@ -93,9 +93,9 @@
 .p4-fecha-dia-nombre,
 .p4-fecha-mes-nombre {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.05rem;
-  letter-spacing: 0.1em;
-  color: #2f3a44;
+  font-size: 0.95rem;
+  letter-spacing: 0.14em;
+  color: #8c7968;
   font-weight: 600;
 }
 
@@ -111,7 +111,7 @@
   content: '';
   flex: 1;
   height: 1px;
-  background: #c9ad7c;
+  background: #d9cbb8;
 }
 
 .p4-fecha-mes-nombre {
@@ -126,7 +126,7 @@
   content: '';
   flex: 1;
   height: 1px;
-  background: #c9ad7c;
+  background: #d9cbb8;
 }
 
 .p4-fecha-dia {
@@ -140,16 +140,16 @@
 
 .p4-fecha-dia-numero {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 2.6rem;
-  color: #d3a24a;
+  font-size: 2.8rem;
+  color: #a3702c;
   font-weight: 700;
 }
 
 .p4-fecha-anio {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   letter-spacing: 0.15em;
-  color: #8b98a1;
+  color: #a79c8c;
   font-weight: 600;
   margin-top: 0.1rem;
 }
