@@ -10,10 +10,8 @@
 }
 
 .p2-miel-pre {
-  align-self: flex-start;
-  margin-left: 6%;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   letter-spacing: 0.25em;
   color: #2f3a44;
   font-weight: 600;
@@ -21,14 +19,12 @@
 }
 
 .p2-miel {
-  align-self: flex-start;
-  margin-left: 6%;
-  margin-top: 0.2rem;
+  margin-top: 0.4rem;
 }
 
 .p2-miel span {
   font-family: 'Alex Brush', cursive;
-  font-size: 3.4rem;
+  font-size: 3rem;
   color: #d3a24a;
   display: inline-block;
   line-height: 1;
@@ -36,14 +32,12 @@
 }
 
 .p2-pretitulo {
-  align-self: flex-start;
-  margin-left: 6%;
   font-family: 'Cormorant Garamond', serif;
   font-size: 1rem;
   letter-spacing: 0.25em;
   color: #2f3a44;
   font-weight: 600;
-  margin-top: 0.4rem;
+  margin-top: 0.7rem;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.95), 0 2px 4px rgba(255, 255, 255, 0.8);
 }
 
