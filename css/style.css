@@ -25,6 +25,12 @@ body {
   overflow-x: hidden;
 }
 
+.seccion {
+  position: relative;
+  overflow-x: hidden;
+  display: block;
+}
+
 .pagina-fondo {
   position: absolute;
   inset: 0;

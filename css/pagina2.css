@@ -83,7 +83,7 @@
   filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.18));
 }
 
-.abeja {
+.pagina2 .abeja {
   position: absolute;
   z-index: 3;
   width: 34px;
@@ -91,14 +91,14 @@
   filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.15));
 }
 
-.abeja-1 {
+.pagina2 .abeja-1 {
   top: 2%;
   left: 6%;
   width: 26px;
   animation: volar-a 7s ease-in-out infinite;
 }
 
-.abeja-2 {
+.pagina2 .abeja-2 {
   top: 7%;
   right: 8%;
   width: 24px;
@@ -106,7 +106,7 @@
   animation-delay: -1.5s;
 }
 
-.abeja-3 {
+.pagina2 .abeja-3 {
   top: 32%;
   left: 3%;
   width: 30px;
@@ -114,7 +114,7 @@
   animation-delay: -3s;
 }
 
-.abeja-4 {
+.pagina2 .abeja-4 {
   top: 38%;
   right: 4%;
   width: 24px;
@@ -122,7 +122,7 @@
   animation-delay: -0.8s;
 }
 
-.abeja-5 {
+.pagina2 .abeja-5 {
   top: 62%;
   left: 8%;
   width: 28px;
@@ -130,7 +130,7 @@
   animation-delay: -2.2s;
 }
 
-.abeja-6 {
+.pagina2 .abeja-6 {
   top: 70%;
   right: 6%;
   width: 26px;

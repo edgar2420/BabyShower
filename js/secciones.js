@@ -47,7 +47,7 @@ if (secciones.length > 1) {
             puntos[indice].classList.add('activo');
             mostrarEtiqueta(entrada.target.dataset.label || `Sección ${indice + 1}`);
         });
-    }, { threshold: 0.5 });
+    }, { threshold: 0, rootMargin: '-45% 0px -45% 0px' });
 
     secciones.forEach((seccion) => observador.observe(seccion));
 }

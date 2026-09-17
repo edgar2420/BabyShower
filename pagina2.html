@@ -8,19 +8,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Cormorant+Garamond:wght@500;600&family=Playfair+Display:wght@500;600&family=Alex+Brush&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Cormorant+Garamond:wght@500;600;700&family=Playfair+Display:wght@500;600&family=Alex+Brush&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/pagina2.css">
+    <link rel="stylesheet" href="css/pagina3.css">
+    <link rel="stylesheet" href="css/pagina4.css">
 </head>
 
 <body>
 
-    <div class="pagina pagina2">
-        <img class="pagina-fondo" src="img/lUEGO.jpg" alt="Fondo nubes">
+    <div class="pagina documento">
 
-        <div class="pagina2-contenido">
-            <div class="seccion" data-label="Baby en camino">
+        <section class="pagina2 seccion" data-label="Baby en camino">
+            <img class="pagina-fondo" src="img/lUEGO.jpg" alt="Fondo nubes">
+
+            <div class="pagina2-contenido">
                 <p class="p2-miel-pre">UN POCO DE</p>
                 <p class="p2-miel"><span>MIEL</span></p>
                 <p class="p2-pretitulo">ESTÁ EN CAMINO</p>
@@ -32,79 +35,207 @@
                     </span>
                     <span class="p2-letras">BY</span>
                 </div>
+
+                <img class="abeja abeja-1" src="img/abeja-removebg-preview.png" alt="">
+                <img class="abeja abeja-2" src="img/abeja-removebg-preview.png" alt="">
+                <img class="abeja abeja-3" src="img/abeja-removebg-preview.png" alt="">
+                <img class="abeja abeja-4" src="img/abeja-removebg-preview.png" alt="">
+                <img class="abeja abeja-5" src="img/abeja-removebg-preview.png" alt="">
+                <img class="abeja abeja-6" src="img/abeja-removebg-preview.png" alt="">
+
+                <div class="reproductor">
+                    <p class="reproductor-texto">Dale play a nuestra canción</p>
+
+                    <div class="barra">
+                        <div class="barra-progreso" id="barraProgreso"></div>
+                    </div>
+
+                    <div class="controles">
+                        <button class="control" type="button" aria-label="Aleatorio">
+                            <svg viewBox="0 0 24 24" width="20" height="20">
+                                <path d="M17 3l4 4-4 4M3 7h6l3 4m9 6l-4 4-4-4M3 17h6l9-13" fill="none"
+                                    stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+
+                        <button class="control" type="button" aria-label="Anterior">
+                            <svg viewBox="0 0 24 24" width="22" height="22">
+                                <path d="M18 5v14L7 12z" fill="currentColor" />
+                                <rect x="4" y="5" width="2" height="14" fill="currentColor" />
+                            </svg>
+                        </button>
+
+                        <button class="control control-play" type="button" id="btnPlay" aria-label="Reproducir">
+                            <svg viewBox="0 0 24 24" width="26" height="26" id="iconoPlay">
+                                <path d="M8 5v14l11-7z" fill="currentColor" />
+                            </svg>
+                        </button>
+
+                        <button class="control" type="button" aria-label="Siguiente">
+                            <svg viewBox="0 0 24 24" width="22" height="22">
+                                <path d="M6 5v14l11-7z" fill="currentColor" />
+                                <rect x="18" y="5" width="2" height="14" fill="currentColor" />
+                            </svg>
+                        </button>
+
+                        <button class="control" type="button" aria-label="Repetir">
+                            <svg viewBox="0 0 24 24" width="20" height="20">
+                                <path d="M17 2l4 4-4 4M3 11V9a4 4 0 0 1 4-4h14M7 22l-4-4 4-4M21 13v2a4 4 0 0 1-4 4H3"
+                                    fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="p2-versiculo">
+                    <img class="p2-versiculo-imagen" src="img/nombre-removebg-preview.png" alt="Letrero de madera">
+                    <div class="p2-versiculo-capa">
+                        <p class="p2-versiculo-texto">
+                            Cada latido, cada patadita,
+                            son notas de la melodía
+                            que traerá el nuevo
+                            miembro de la familia
+                        </p>
+                    </div>
+                </div>
+
+                <img class="p2-osito" src="img/ositopoo-removebg-preview.png" alt="Osito Pooh">
             </div>
+
+            <audio id="audio" src="mp3/Gimnasia con Pooh.mp3" preload="metadata"></audio>
+        </section>
+
+        <section class="pagina3 seccion" data-label="Mis papitos">
+            <img class="pagina-fondo" src="img/fondo3.jpg" alt="Fondo nubes">
 
             <img class="abeja abeja-1" src="img/abeja-removebg-preview.png" alt="">
             <img class="abeja abeja-2" src="img/abeja-removebg-preview.png" alt="">
             <img class="abeja abeja-3" src="img/abeja-removebg-preview.png" alt="">
             <img class="abeja abeja-4" src="img/abeja-removebg-preview.png" alt="">
-            <img class="abeja abeja-5" src="img/abeja-removebg-preview.png" alt="">
-            <img class="abeja abeja-6" src="img/abeja-removebg-preview.png" alt="">
 
-            <div class="reproductor seccion" data-label="Nuestra canción">
-                <p class="reproductor-texto">Dale play a nuestra canción</p>
+            <div class="pagina3-contenido">
+                <p class="p3-papitos">Mi Papitos</p>
+                <p class="p3-padres">Edgar &amp; Vianka</p>
 
-                <div class="barra">
-                    <div class="barra-progreso" id="barraProgreso"></div>
+                <p class="p3-texto">
+                    Mientras Diosito sigue cuidándome y terminando de formarme en la pancita de mi mami,
+                    mis papis ya cuentan los días para conocerme y recibir mi llegada.
+                </p>
+
+                <p class="p3-subtitulo">
+                    <img class="p3-abeja-texto" src="img/abeja-removebg-preview.png" alt="">
+                    Mi Baby Shower
+                    <img class="p3-abeja-texto" src="img/abeja-removebg-preview.png" alt="">
+                </p>
+
+                <p class="p3-nombre">Amir Andres</p>
+
+                <div class="p3-corazon">
+                    <div class="p3-corazon-placeholder">
+                        <svg viewBox="0 0 24 24" width="34" height="34">
+                            <path
+                                d="M12 21s-7.5-4.6-10-9.2C.3 8.4 2 4.8 5.5 4.2 8 3.8 10 5 12 7c2-2 4-3.2 6.5-2.8C22 4.8 23.7 8.4 22 11.8 19.5 16.4 12 21 12 21z"
+                                fill="none" stroke="#ffffff" stroke-width="1.4" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <img class="p3-corazon-foto" src="img/pareja.jpg" alt="Foto de los papás"
+                        onerror="this.style.display='none'">
                 </div>
 
-                <div class="controles">
-                    <button class="control" type="button" aria-label="Aleatorio">
-                        <svg viewBox="0 0 24 24" width="20" height="20">
-                            <path d="M17 3l4 4-4 4M3 7h6l3 4m9 6l-4 4-4-4M3 17h6l9-13" fill="none" stroke="currentColor"
-                                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </button>
-
-                    <button class="control" type="button" aria-label="Anterior">
-                        <svg viewBox="0 0 24 24" width="22" height="22">
-                            <path d="M18 5v14L7 12z" fill="currentColor" />
-                            <rect x="4" y="5" width="2" height="14" fill="currentColor" />
-                        </svg>
-                    </button>
-
-                    <button class="control control-play" type="button" id="btnPlay" aria-label="Reproducir">
-                        <svg viewBox="0 0 24 24" width="26" height="26" id="iconoPlay">
-                            <path d="M8 5v14l11-7z" fill="currentColor" />
-                        </svg>
-                    </button>
-
-                    <button class="control" type="button" aria-label="Siguiente">
-                        <svg viewBox="0 0 24 24" width="22" height="22">
-                            <path d="M6 5v14l11-7z" fill="currentColor" />
-                            <rect x="18" y="5" width="2" height="14" fill="currentColor" />
-                        </svg>
-                    </button>
-
-                    <button class="control" type="button" aria-label="Repetir">
-                        <svg viewBox="0 0 24 24" width="20" height="20">
-                            <path d="M17 2l4 4-4 4M3 11V9a4 4 0 0 1 4-4h14M7 22l-4-4 4-4M21 13v2a4 4 0 0 1-4 4H3"
-                                fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                </div>
+                <img class="p3-osito" src="img/morral-removebg-preview.png" alt="Osito Pooh">
             </div>
+        </section>
 
-            <div class="p2-versiculo seccion" data-label="Un poco de miel">
-                <img class="p2-versiculo-imagen" src="img/nombre-removebg-preview.png" alt="Letrero de madera">
-                <div class="p2-versiculo-capa">
-                    <p class="p2-versiculo-texto">
-                        Cada latido, cada patadita,
-                        son notas de la melodía
-                        que traerá el nuevo
-                        miembro de la familia
+        <section class="pagina4 seccion" data-label="Cuenta regresiva">
+            <img class="pagina-fondo" src="img/fondo3.jpg" alt="Fondo nubes">
+
+            <svg class="p4-panal" viewBox="0 0 120 140" width="130" height="150">
+                <g fill="none" stroke="#cdd8de" stroke-width="1.2">
+                    <polygon points="20,5 35,13 35,29 20,37 5,29 5,13" />
+                    <polygon points="20,37 35,45 35,61 20,69 5,61 5,45" />
+                    <polygon points="20,69 35,77 35,93 20,101 5,93 5,77" />
+                    <polygon points="48,21 63,29 63,45 48,53 33,45 33,29" />
+                    <polygon points="48,53 63,61 63,77 48,85 33,77 33,61" />
+                </g>
+            </svg>
+
+            <img class="p4-abeja" src="img/abeja-removebg-preview.png" alt="">
+
+            <div class="pagina4-contenido">
+                <div class="p4-fecha">
+                    <div class="p4-fecha-mes">
+                        <span>OCTUBRE</span>
+                    </div>
+                    <div class="p4-fecha-dia">
+                        <span class="p4-fecha-dia-nombre">SÁBADO</span>
+                        <span class="p4-fecha-dia-numero">10</span>
+                    </div>
+                    <div class="p4-fecha-hora">
+                        <span>3:00 P.M.</span>
+                    </div>
+                </div>
+
+                <p class="p4-cuenta">Cuenta</p>
+                <p class="p4-regresiva">REGRESIVA</p>
+
+                <div class="p4-contador" id="contador">
+                    <div class="p4-bloque">
+                        <span class="p4-numero" id="dias">00</span>
+                        <span class="p4-etiqueta">DÍAS</span>
+                    </div>
+                    <span class="p4-separador">:</span>
+                    <div class="p4-bloque">
+                        <span class="p4-numero" id="horas">00</span>
+                        <span class="p4-etiqueta">HORAS</span>
+                    </div>
+                    <span class="p4-separador">:</span>
+                    <div class="p4-bloque">
+                        <span class="p4-numero" id="minutos">00</span>
+                        <span class="p4-etiqueta">MINUTOS</span>
+                    </div>
+                    <span class="p4-separador">:</span>
+                    <div class="p4-bloque">
+                        <span class="p4-numero" id="segundos">00</span>
+                        <span class="p4-etiqueta">SEGUNDOS</span>
+                    </div>
+                </div>
+
+                <div class="p4-recepcion">
+                    <p class="p4-recepcion-titulo">Recepción</p>
+                    <svg class="p4-pin" viewBox="0 0 24 24" width="42" height="42">
+                        <path d="M12 2C7.6 2 4 5.6 4 10c0 6 8 12 8 12s8-6 8-12c0-4.4-3.6-8-8-8z" fill="#ffffff" />
+                        <circle cx="12" cy="10" r="3" fill="#6f9cba" />
+                    </svg>
+                    <p class="p4-recepcion-texto">LUGAR DEL EVENTO</p>
+                    <a class="p4-boton" href="#" target="_blank" rel="noopener">VER UBICACIÓN</a>
+                </div>
+
+                <div class="p4-confirmar">
+                    <img class="p4-abeja-confirmar" src="img/abeja-removebg-preview.png" alt="">
+
+                    <p class="p4-confirmar-titulo">Confirmar<br>Asistencia</p>
+
+                    <p class="p4-confirmar-texto">
+                        Nos encantará saber que nos acompañarás, permítenos preparar
+                        los detalles confirmando tu asistencia.
                     </p>
+
+                    <a class="p4-boton p4-boton-confirmar" href="https://wa.me/59178130227" target="_blank"
+                        rel="noopener">CONFIRMAR ASISTENCIA</a>
+                    <a class="p4-boton p4-boton-confirmar" href="https://wa.me/59163230073" target="_blank"
+                        rel="noopener">CONFIRMAR ASISTENCIA</a>
+
+                    <img class="p4-morral" src="img/morral-removebg-preview.png" alt="Osito Pooh">
                 </div>
             </div>
+        </section>
 
-            <img class="p2-osito" src="img/ositopoo-removebg-preview.png" alt="Osito Pooh">
-        </div>
-
-        <audio id="audio" src="mp3/Gimnasia con Pooh.mp3" preload="metadata"></audio>
     </div>
 
     <script src="js/pagina2.js"></script>
+    <script src="js/pagina4.js"></script>
     <script src="js/secciones.js"></script>
 
 </body>
