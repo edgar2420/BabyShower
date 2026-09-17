@@ -287,8 +287,8 @@
 
 .p2-versiculo {
   position: relative;
-  width: 96%;
-  max-width: 380px;
+  width: 108%;
+  max-width: 430px;
   margin-top: 3rem;
   filter: drop-shadow(0 10px 16px rgba(0, 0, 0, 0.2));
 }
@@ -314,7 +314,7 @@
 .p2-versiculo-texto {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
-  font-size: clamp(0.68rem, 3.1vw, 0.9rem);
+  font-size: clamp(0.7rem, 3.3vw, 0.95rem);
   line-height: 1.4;
   color: #fff9ec;
   font-weight: 700;
