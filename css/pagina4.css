@@ -250,7 +250,7 @@
 .p4-whatsapp-grupo {
   display: flex;
   flex-direction: column;
-  gap: 0.7rem;
+  gap: 1.2rem;
   margin-top: 1.6rem;
 }
 
@@ -259,13 +259,13 @@
   display: flex;
   align-items: center;
   gap: 0.7rem;
-  padding: 0.65em 3rem 0.65em 1.1em;
+  padding: 0.65em 3.4rem 0.65em 1.1em;
   background: linear-gradient(135deg, #fff6e2, #ffe4a3);
   border: 1px solid rgba(211, 162, 74, 0.6);
   border-radius: 30px;
   box-shadow: 0 4px 10px rgba(163, 110, 40, 0.18);
   text-decoration: none;
-  overflow: hidden;
+  overflow: visible;
   transition: transform 150ms ease, box-shadow 150ms ease;
 }
 
@@ -341,11 +341,14 @@
 
 .p4-whatsapp-tarron {
   position: absolute;
-  right: -6px;
-  bottom: -8px;
-  width: 42px;
+  right: -10px;
+  bottom: -14px;
+  width: 62px;
   height: auto;
-  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.15));
+  z-index: 2;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.18));
+  animation: flotar-sutil-a 5.5s ease-in-out infinite;
+  animation-delay: -1s;
 }
 
 .p4-morral {
