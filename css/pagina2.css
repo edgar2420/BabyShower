@@ -80,7 +80,6 @@
   height: 100%;
   object-fit: contain;
   object-position: bottom;
-  filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.5));
 }
 
 @media (max-width: 360px) {
