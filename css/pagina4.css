@@ -100,13 +100,33 @@
 }
 
 .p4-fecha-dia-nombre {
-  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  justify-self: stretch;
   padding-right: 0.8rem;
 }
 
+.p4-fecha-dia-nombre::before {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #c9ad7c;
+}
+
 .p4-fecha-mes-nombre {
-  justify-self: start;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  justify-self: stretch;
   padding-left: 0.8rem;
+}
+
+.p4-fecha-mes-nombre::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #c9ad7c;
 }
 
 .p4-fecha-dia {
@@ -135,12 +155,12 @@
 }
 
 .p4-fecha-hora {
-  margin-top: 0.9rem;
+  margin-top: 1rem;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 0.95rem;
+  font-size: 1.4rem;
   letter-spacing: 0.15em;
   color: #6f9cba;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .p4-cuenta {
