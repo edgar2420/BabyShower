@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  padding: 16% 8% 6%;
+  padding: calc(16% + env(safe-area-inset-top)) 8% 6%;
   text-align: center;
 }
 
@@ -314,7 +314,7 @@
 .p2-versiculo-texto {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
-  font-size: clamp(0.6rem, 3vw, 0.85rem);
+  font-size: clamp(0.7rem, 3.3vw, 0.92rem);
   line-height: 1.4;
   color: #fff9ec;
   font-weight: 700;
