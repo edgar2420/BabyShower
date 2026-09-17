@@ -175,9 +175,9 @@
 .p4-recepcion-osito {
   position: absolute;
   top: 32%;
-  right: -12%;
-  width: 34%;
-  max-width: 100px;
+  right: -3%;
+  width: 32%;
+  max-width: 94px;
   z-index: 2;
   filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.2));
 }
