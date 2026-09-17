@@ -287,14 +287,10 @@
 
 .p2-versiculo {
   position: relative;
-  width: 100%;
-  max-width: 400px;
+  width: 78%;
+  max-width: 300px;
   margin-top: 3rem;
-  padding: 14px;
-  background: rgba(255, 255, 255, 0.4);
-  border: 2px solid #e6d5b8;
-  border-radius: 24px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+  filter: drop-shadow(0 10px 16px rgba(0, 0, 0, 0.2));
 }
 
 .p2-versiculo-imagen {
@@ -318,7 +314,7 @@
 .p2-versiculo-texto {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
-  font-size: clamp(0.7rem, 3.3vw, 0.92rem);
+  font-size: clamp(0.6rem, 2.6vw, 0.78rem);
   line-height: 1.4;
   color: #fff9ec;
   font-weight: 700;
