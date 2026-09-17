@@ -55,7 +55,7 @@
 .p3-abeja-texto {
   width: 20px;
   height: auto;
-  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.5));
 }
 
 .p3-nombre {
@@ -81,7 +81,7 @@
   mask-repeat: no-repeat;
   -webkit-mask-position: center;
   mask-position: center;
-  filter: drop-shadow(0 8px 14px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 8px 14px rgba(0, 0, 0, 0.5));
 }
 
 .p3-corazon-placeholder {
@@ -108,7 +108,7 @@
   width: 40%;
   max-width: 160px;
   z-index: 2;
-  filter: drop-shadow(0 8px 10px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 8px 10px rgba(0, 0, 0, 0.5));
 }
 
 .pagina3 .abeja {
@@ -116,7 +116,7 @@
   z-index: 3;
   width: 32px;
   height: auto;
-  filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.5));
 }
 
 .pagina3 .abeja-1 {

@@ -81,7 +81,7 @@
   height: 100%;
   object-fit: contain;
   object-position: bottom;
-  filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.18));
+  filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.5));
 }
 
 @media (max-width: 360px) {
@@ -104,7 +104,7 @@
   z-index: 3;
   width: 34px;
   height: auto;
-  filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.5));
 }
 
 .pagina2 .abeja-1 {
@@ -263,7 +263,7 @@
   align-items: center;
   justify-content: center;
   padding: 0;
-  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.5));
 }
 
 .control-play {
@@ -283,7 +283,7 @@
   width: 34%;
   max-width: 150px;
   z-index: 2;
-  filter: drop-shadow(0 10px 14px rgba(0, 0, 0, 0.35));
+  filter: drop-shadow(0 10px 14px rgba(0, 0, 0, 0.5));
 }
 
 .p2-versiculo {
@@ -291,7 +291,7 @@
   width: 108%;
   max-width: 430px;
   margin-top: 3rem;
-  filter: drop-shadow(0 10px 16px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 10px 16px rgba(0, 0, 0, 0.5));
 }
 
 .p2-versiculo-imagen {
