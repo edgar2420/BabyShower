@@ -212,7 +212,7 @@
   width: 90%;
   max-width: 320px;
   margin-top: 2.4rem;
-  padding: 3rem 1.8rem 2.2rem;
+  padding: 3rem 1.8rem 3.4rem;
   background:
     linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 250, 236, 0.92)),
     url("../img/tarron.jpg") center 80% / 70% no-repeat;
@@ -223,11 +223,24 @@
 
 .p4-abeja-confirmar {
   position: absolute;
-  top: -6%;
-  left: -4%;
   width: 60px;
   height: auto;
+  z-index: 3;
   filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.15));
+}
+
+.p4-abeja-confirmar-1 {
+  top: -6%;
+  left: -4%;
+  animation: volar-a 8s ease-in-out infinite;
+}
+
+.p4-abeja-confirmar-2 {
+  top: -8%;
+  right: -2%;
+  width: 40px;
+  animation: volar-b 7s ease-in-out infinite;
+  animation-delay: -1.5s;
 }
 
 .p4-confirmar-titulo {
@@ -353,10 +366,10 @@
 
 .p4-morral {
   position: absolute;
-  right: -1%;
-  bottom: -4%;
+  right: -4%;
+  bottom: -12%;
   width: 22%;
   max-width: 82px;
-  z-index: 2;
+  z-index: 1;
   filter: drop-shadow(0 8px 10px rgba(0, 0, 0, 0.15));
 }
