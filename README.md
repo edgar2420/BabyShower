@@ -1,4 +1,4 @@
-# Baby Shower — Amir Andrés
+# Baby Shower — Amir Andres
 
 Invitación digital para el Baby Shower de Amir Andrés, con temática de Winnie Pooh. Sitio estático (HTML/CSS/JS puro, sin frameworks) pensado para verse como una tarjeta de celular.
 
