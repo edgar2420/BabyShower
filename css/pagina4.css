@@ -163,11 +163,11 @@
   margin-top: 3rem;
   padding: 2.4rem 1.6rem 2rem;
   background:
-    linear-gradient(160deg, rgba(126, 168, 196, 0.86), rgba(111, 156, 186, 0.92)),
+    linear-gradient(160deg, rgba(196, 145, 58, 0.8), rgba(163, 110, 40, 0.88)),
     url("../img/fondo.jpg") center/cover;
   border: 3px solid #d3a24a;
   border-radius: 130px 130px 24px 24px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
   overflow: hidden;
 }
 
@@ -253,15 +253,17 @@
 }
 
 .p4-whatsapp {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 0.7rem;
-  padding: 0.65em 1.1em;
-  background: #ffffff;
-  border: 1px solid rgba(211, 162, 74, 0.5);
+  padding: 0.65em 3rem 0.65em 1.1em;
+  background: linear-gradient(135deg, #fff6e2, #ffe4a3);
+  border: 1px solid rgba(211, 162, 74, 0.6);
   border-radius: 30px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 10px rgba(163, 110, 40, 0.18);
   text-decoration: none;
+  overflow: hidden;
   transition: transform 150ms ease, box-shadow 150ms ease;
 }
 
@@ -293,6 +295,15 @@
 .p4-whatsapp span strong {
   font-weight: 700;
   color: #6f9cba;
+}
+
+.p4-whatsapp-tarron {
+  position: absolute;
+  right: -6px;
+  bottom: -8px;
+  width: 42px;
+  height: auto;
+  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.15));
 }
 
 .p4-morral {
