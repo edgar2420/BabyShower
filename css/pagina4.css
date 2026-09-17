@@ -62,21 +62,12 @@
   border-bottom: 1px solid #c9ad7c;
 }
 
-.p4-invita-titulo {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 1.25rem;
-  color: #2f3a44;
-  font-weight: 700;
-  line-height: 1.4;
-}
-
 .p4-invita-texto {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   color: #5a6570;
   font-weight: 500;
   line-height: 1.5;
-  margin-top: 0.5rem;
 }
 
 .p4-fecha-marco {

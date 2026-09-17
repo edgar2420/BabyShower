@@ -37,6 +37,10 @@
                     window.location.href = 'pagina2.html';
                 }, 900);
             });
+
+            window.addEventListener('pageshow', () => {
+                portada.classList.remove('saliendo');
+            });
         </script>
 
 </body>
