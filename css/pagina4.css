@@ -258,10 +258,10 @@
 
 .p4-morral {
   position: absolute;
-  right: -6%;
-  bottom: -14%;
-  width: 46%;
-  max-width: 160px;
+  right: -2%;
+  bottom: -7%;
+  width: 36%;
+  max-width: 130px;
   z-index: 2;
   filter: drop-shadow(0 8px 10px rgba(0, 0, 0, 0.15));
 }
