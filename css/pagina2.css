@@ -300,9 +300,9 @@
 
 .p2-versiculo-capa {
   position: absolute;
-  left: 14%;
+  left: 16%;
   top: 56%;
-  width: 72%;
+  width: 68%;
   bottom: 8%;
   display: flex;
   align-items: center;
@@ -313,8 +313,8 @@
 .p2-versiculo-texto {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
-  font-size: 0.92rem;
-  line-height: 1.45;
+  font-size: clamp(0.6rem, 3vw, 0.85rem);
+  line-height: 1.4;
   color: #fff9ec;
   font-weight: 700;
   text-shadow:
