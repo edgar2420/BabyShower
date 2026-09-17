@@ -161,14 +161,36 @@
   width: 84%;
   max-width: 300px;
   margin-top: 3rem;
-  padding: 2.4rem 1.6rem 2rem;
+  padding: 2.6rem 1.6rem 2.2rem;
   background:
-    linear-gradient(160deg, rgba(196, 145, 58, 0.8), rgba(163, 110, 40, 0.88)),
+    linear-gradient(160deg, rgba(196, 145, 58, 0.82), rgba(163, 110, 40, 0.9)),
     url("../img/fondo.jpg") center/cover;
   border: 3px solid #d3a24a;
   border-radius: 130px 130px 24px 24px;
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
-  overflow: hidden;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.2);
+  overflow: visible;
+}
+
+.p4-recepcion-abeja {
+  position: absolute;
+  width: 30px;
+  height: auto;
+  z-index: 3;
+  filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.18));
+}
+
+.p4-recepcion-abeja-1 {
+  top: -8%;
+  right: 8%;
+  animation: volar-a 7s ease-in-out infinite;
+}
+
+.p4-recepcion-abeja-2 {
+  bottom: 10%;
+  left: -8%;
+  width: 24px;
+  animation: volar-b 8s ease-in-out infinite;
+  animation-delay: -2s;
 }
 
 .p4-recepcion-titulo {
@@ -176,10 +198,22 @@
   font-size: 2.4rem;
   color: #ffffff;
   line-height: 1;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.p4-pin-marco {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 62px;
+  height: 62px;
+  margin: 1.3rem auto 0;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
 }
 
 .p4-pin {
-  margin-top: 1.2rem;
   filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.2));
 }
 
@@ -193,18 +227,27 @@
 }
 
 .p4-boton {
-  display: inline-block;
-  margin-top: 1.4rem;
-  padding: 0.55em 1.4em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  padding: 0.6em 1.5em;
   font-family: 'Cormorant Garamond', serif;
   font-size: 0.85rem;
   letter-spacing: 0.12em;
   font-weight: 700;
-  text-decoration: underline;
-  color: #ffffff;
-  border: 1px solid #d3a24a;
-  border-radius: 4px;
-  background: rgba(255, 255, 255, 0.08);
+  text-decoration: none;
+  color: #a3702c;
+  border: none;
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.p4-boton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.22);
 }
 
 .p4-confirmar {
