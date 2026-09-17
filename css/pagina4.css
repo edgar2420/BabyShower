@@ -163,8 +163,9 @@
   margin-top: 4.4rem;
   padding: 2.6rem 1.6rem 2.2rem;
   background:
-    linear-gradient(160deg, rgba(196, 145, 58, 0.82), rgba(163, 110, 40, 0.9)),
-    url("../img/fondo.jpg") center/cover;
+    linear-gradient(160deg, rgba(196, 145, 58, 0.55), rgba(163, 110, 40, 0.6)),
+    url("../img/fondo.jpg") right bottom / 230% no-repeat,
+    #c4913a;
   border: 3px solid #d3a24a;
   border-radius: 130px 130px 24px 24px;
   box-shadow: 0 12px 26px rgba(0, 0, 0, 0.2);
