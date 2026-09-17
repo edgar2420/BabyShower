@@ -83,6 +83,21 @@
   filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.18));
 }
 
+@media (max-width: 360px) {
+  .p2-baby-wrap {
+    font-size: 4rem;
+  }
+
+  .p2-miel span {
+    font-size: 2.7rem;
+  }
+
+  .p2-miel-pre,
+  .p2-pretitulo {
+    font-size: 0.85rem;
+  }
+}
+
 .pagina2 .abeja {
   position: absolute;
   z-index: 3;
