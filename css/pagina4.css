@@ -133,7 +133,9 @@
   align-items: center;
   justify-self: center;
   line-height: 1;
-  padding: 0 0.6rem;
+  padding: 0 0.9rem;
+  border-left: 1px solid #d9cbb8;
+  border-right: 1px solid #d9cbb8;
 }
 
 .p4-fecha-dia-numero {
@@ -145,11 +147,11 @@
 
 .p4-fecha-anio {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 0.8rem;
+  font-size: 1.05rem;
   letter-spacing: 0.15em;
   color: #a79c8c;
   font-weight: 600;
-  margin-top: 0.1rem;
+  margin-top: 0.2rem;
 }
 
 .p4-fecha-hora {
